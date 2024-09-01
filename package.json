@@ -1,0 +1,28 @@
+{
+  "name": "indrusoft-theme",
+  "displayName": "IndruSoft Theme",
+  "description": "A visually pleasant and developer-friendly theme for VS Code, optimized for backend development.",
+  "icon": "images/logo.png",
+  "version": "1.0.1",
+  "publisher": "indrusoft",
+  "engines": {
+      "vscode": "^1.92.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "contributes": {
+      "themes": [
+          {
+              "label": "IndruSoft Theme",
+              "uiTheme": "vs-dark",
+              "path": "./themes/IndruSoft-Theme-color-theme.json"
+          }
+      ]
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Indru88/indrusoft-theme.git"
+  },
+  "license": "MIT"
+}
